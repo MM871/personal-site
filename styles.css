@@ -1,0 +1,101 @@
+
+
+:root {
+    --greeting-colour: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hi {
+    position: absolute;
+    bottom: 53%;
+    left: 13%;
+    font-size: 80px;
+    /* background-color: rgba(255, 0, 0, 0.2); Transparent red background */
+    color: var(--greeting-colour);
+}
+
+#intro {
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+    font-size: 50px;
+    color: #FDA619;
+}
+
+#intro, #hi {
+    font-family: Signika Negative, sans-serif;
+}
+
+body {
+    background-color: #04124a;
+    height: 1000px;
+    overflow: hidden;
+}
+
+main {
+    overflow: auto;
+}
+
+nav {
+    height: 100px;
+}
+
+nav label {
+    font-size: 50px;
+    font-family: Signika Negative, sans-serif;
+    line-height: 95px;
+    padding-left: 60px;
+    color: #FDA619;
+}
+
+.navopt {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 35px 65px;
+    list-style-type: none;
+    font-family: League Spartan, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.bio {
+    position: absolute;
+    bottom: 230px;
+    left: 15%;
+    font-size: 30px;
+    color: aliceblue;
+    width: 700px;
+    font-family: League Spartan, serif;
+}
+
+.custom-shape-divider-bottom-1692535156 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692535156 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 188px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1692535156 .shape-fill {
+    fill: #FDA619;
+}
+
+
